@@ -1,0 +1,16 @@
+= Discord Bot
+Discord Bot
+:toc:
+
+== Intro
+
+First set up the `.env` file as shown in `.env.example`. +
+Then for now this can be run with `uv run src/discbot/main.py` from the root of the repository.
+
+== Style
+
+In order to keep at least some code consistency, Ruff is available with some rules configured. +
+`uv run ruff check` to dry-run check for code problems. +
+`uv run ruff check --fix` to apply. +
+`uv run ruff format --diff` to dry-run check for code formatting. +
+`uv run ruff format` to apply.
